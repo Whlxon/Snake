@@ -4,16 +4,6 @@ from Snake import snakeGame
 import os
 import random
 
-
-
-print("Hello there ! Welcome to my snake made at home !")
-
-t.sleep(2)
-
-print("Lets begin !")
-
-t.sleep(2)
-
 snake = snakeGame()
 
 running = True
