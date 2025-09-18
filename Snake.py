@@ -84,21 +84,7 @@ class snakeGame:# I create the class of the snake, to reUse it later, maybe..
             self.genAppleCo()
     
     def transformGrid(self):
-        finalGrid = [[],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     [],
-                     []]
+        finalGrid = [[], [],[],[],[],[],[],[],[],[],[],[],[],[],[]]
 
         for i in range(len(self.grid)-1):
             for j in range(len(self.grid[0])-1):
